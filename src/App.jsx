@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react';
-import { supabase } from './lib/supabase';
 import { sendOtp, verifyOtp, getOrCreatePatient, savePatientProfile, session } from './lib/api';
 import { C, btn } from './lib/design';
 import HomeScreen from './screens/HomeScreen';

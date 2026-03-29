@@ -1,6 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
 import { C, btn, card } from '../lib/design';
-import { supabase } from '../lib/supabase';
 import { getRecords, uploadReport, deleteRecord } from '../lib/api';
 
 const fmtDate = (d) => d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : '—';

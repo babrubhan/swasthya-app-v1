@@ -72,7 +72,7 @@ function UploadPrescriptionSheet({ patientId, onClose, onDone }) {
   const [step, setStep] = useState('upload'); // upload | scan | medicines | details
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
-  const [scanning, setScanning] = useState(false);
+  const [scanning, setScanning] = useState(false); // eslint-disable-line no-unused-vars
   const [medicines, setMedicines] = useState([]);
   const [showAddForm, setShowAddForm] = useState(false);
   const [doctor, setDoctor] = useState('');
